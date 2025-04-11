@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wireframe Exemplo</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+ 
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+ 
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+    }
+ 
+    .login-btn {
+      background-color: #999;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+ 
+    .hero {
+      display: flex;
+      height: 300px;
+    }
+ 
+    .hero-text {
+      flex: 1;
+      background-color: #aaa;
+      padding: 40px;
+      color: white;
+    }
+ 
+    .hero-text h1 {
+      margin: 0;
+    }
+ 
+    .hero-image {
+      flex: 2;
+      background-color: #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      color: #333;
+    }
+ 
+    .content {
+      padding: 40px;
+    }
+ 
+    .content h2 {
+      margin-bottom: 20px;
+    }
+ 
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+ 
+    .info-texts {
+      flex: 1;
+    }
+ 
+    .info-text {
+      background-color: #eee;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+ 
+    .info-image {
+      flex: 1;
+      background-color: #999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      height: 300px;
+      margin-left: 20px;
+    }
+ 
+    .button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: white;
+      border: 1px solid #fff;
+      color: #333;
+      cursor: pointer;
+    }
+</style>
+</head>
+<body>
+ 
+  <header>
+<div><strong>LOGO</strong></div>
+<nav>
+<a href="#">Gestão de projetos</a>
+<a href="#">Armazenamento</a>
+<a href="#">Distribuição</a>
+<a href="#">Planos</a>
+</nav>
+<a href="#" class="login-btn">Entrar</a>
+</header>
+ 
+  <section class="hero">
+<div class="hero-text">
+<h1>LOREM IPSUM</h1>
+<h1>LOREM IPSUM</h1>
+<h1>LOREM IPSUM</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+<button class="button">Cadastre-se</button>
+</div>
+<div class="hero-image">
+      imagem
+</div>
+</section>
+ 
+  <section class="content">
+<h2>LOREM IPSUM</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ 
+    <div class="info-section">
+<div class="info-texts">
+<div class="info-text">
+<strong>Inserir um subtítulo</strong>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+</div>
+<div class="info-text">
+<strong>Inserir um subtítulo</strong>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+</div>
+<div class="info-text">
+<strong>Inserir um subtítulo</strong>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+</div>
+</div>
+<div class="info-image">
+        IMAGEM
+</div>
+</div>
+</section>
+ 
+</body>
+</html>
